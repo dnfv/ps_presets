@@ -110,9 +110,6 @@ class FileCopyApp:
         self.copy_button7 = Button(button_frame, text="Path 7 Act", command=lambda: self.copy_and_replace(7))
         self.copy_button7.grid(row=1, column=1, padx=10)
 
-
-        # Add similar buttons for Path 2 and Path 3
-
         # Configure column to expand
         root.columnconfigure(1, weight=1)  # column 1 contains the entry fields
 
